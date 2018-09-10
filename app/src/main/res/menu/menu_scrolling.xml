@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="alanbiaaturath.apps.turathbooksantuni.ScrollingActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="معهد تراث الانبياء"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="تواصل معنا"
+        app:showAsAction="never"/>
+</menu>

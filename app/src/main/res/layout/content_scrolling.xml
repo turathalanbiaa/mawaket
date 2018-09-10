@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/material_drawer_dark_header_selection_text"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="alanbiaaturath.apps.turathbooksantuni.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="alanbiaaturath.apps.turathbooksantuni.ScrollingActivity"
+        tools:showIn="@layout/activity_scrolling">
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/app_bar"
+            app:layout_anchorGravity="bottom|end"
+            app:srcCompat="@drawable/setting_about"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/app_bar"
+            app:layout_anchorGravity="bottom|end"
+            app:srcCompat="@drawable/setting_add"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/app_bar"
+            app:layout_anchorGravity="bottom|end"
+            app:srcCompat="@drawable/setting_minus"/>
+    </LinearLayout>
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfview"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:contextClickable="true"
+        android:padding="5dp"
+        />
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfview2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:contextClickable="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/my_scrool"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+
+        android:layout_marginTop="-300dp"
+
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="left">
+
+            <Button
+                android:id="@+id/left_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:alpha="0.5"
+
+                android:background="@drawable/left_btn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/right_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:alpha="0.5"
+                android:background="@drawable/right_btn"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
