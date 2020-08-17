@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d4ebf5"
+    android:background="@color/colorPrimaryDark"
     tools:context="alanbiaaturath.apps.turathbooksantuni.Main2Activity">
 
     <LinearLayout
@@ -20,7 +20,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="80dp">
+                android:padding="50dp">
+
 
                 <TextView
 
@@ -28,210 +29,229 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:textColor="#397e9a"
-                    android:text="مواقيت الاهلة لعام 1440 هـ"
-                    android:textStyle="bold"/>
+                    android:fontFamily="@font/myfont"
+                    android:textSize="18dp"
+                    android:text="مواقيت الاهلة لعام 1442 هـ"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingBottom="30dp"
-                    android:textColor="#397e9a"
-                    android:text="(2018 - 2019)"
-                    android:textStyle="bold"/>
+                    android:text="(2020 - 2021)"
+                    android:fontFamily="@font/myfont"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="المقدمة"
-
-                    android:textStyle="bold"/>
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="طريقة العمل"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/myfont"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="محرم"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="صفر"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="ربيع الاول"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="ربيع الاخر"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button6"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="جمادى اولى"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="جمادى اخرى"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/myfont"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="رجب"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/myfont"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="شعبان"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/myfont"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="رمضان"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button11"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="شوال"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button12"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/myfont"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="ذو القعدة"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button13"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/myfont"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="ذو الحجة"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button14"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="طريقة حساب القبلة"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button15"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/button_2"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/myfont"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/frameislamic"
+                    android:textColor="@color/colorPrimaryDark"
                     android:onClick="btn_onclik"
-                    android:padding="40dp"
-                    android:textSize="30dp"
+                    android:padding="20dp"
                     android:text="الملاحظات"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </ScrollView>
